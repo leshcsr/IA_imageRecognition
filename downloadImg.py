@@ -14,32 +14,7 @@ driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
 urls_and_folders = [
     {
-        "url": "https://www.google.com/search?q=abra+chiquito+pokemon&sca_esv=67c9ef1e67f16235&rlz=1C1UEAD_esMX997MX997&udm=2&sxsrf=AHTn8zo010UPqTftOkEgtOIcN4_QP1qpow%3A1747935027179&ei=M18vaNXdCqTBkPIPhq6ZiAM&ved=0ahUKEwiVw4qzzbeNAxWkIEQIHQZXBjEQ4dUDCBE&uact=5&oq=abra+chiquito+pokemon&gs_lp=EgNpbWciFWFicmEgY2hpcXVpdG8gcG9rZW1vbkiLeVDwXVird3AJeACQAQCYAZkBoAH5EaoBBDYuMTW4AQPIAQD4AQGYAhWgAtALqAIKwgIHECMYJxjJAsICChAjGCcYyQIY6gLCAgsQABiABBixAxiDAcICDhAAGIAEGLEDGIMBGIoFwgIIEAAYgAQYsQPCAgUQABiABMICChAAGIAEGEMYigXCAhAQABiABBixAxhDGIMBGIoFwgINEAAYgAQYsQMYQxiKBcICDBAAGIAEGEMYigUYCsICBxAAGIAEGArCAgQQABgemAMFiAYBkgcFMTEuMTCgB-c-sgcEMi4xMLgHhAs&sclient=img",
-        "folder": "PokemonData/Abra",
-        "source": "google"
-    },
-    {
-        "url": "https://mx.pinterest.com/search/pins/?q=abra%20pokemon&rs=typed",
-        "folder": "PokemonData/Abra",
-        "source": "pinterest"
-    },
-    {
-        "url": "https://mx.pinterest.com/search/pins/?q=Aerodactyl%20pokemon&rs=typed",
-        "folder": "PokemonData/Aerodactyl",
-        "source": "pinterest"
-    },
-    {
-        "url": "https://mx.pinterest.com/search/pins/?q=Arbok%20pokemon&rs=typed",
-        "folder": "PokemonData/Arbok",
-        "source": "pinterest"
-    },
-    {
-        "url": "https://mx.pinterest.com/search/pins/?q=Articuno%20pokemon&rs=typed",
-        "folder": "PokemonData/Articuno",
-        "source": "pinterest"
-    },
-    {
-        "url": "https://mx.pinterest.com/search/pins/?q=Bulbasaur%20pokemon&rs=typed",
+        "url": "https://mx.pinterest.com/search/pins/?q=bulbasaur&rs=typed",
         "folder": "PokemonData/Bulbasaur",
         "source": "pinterest"
     },
